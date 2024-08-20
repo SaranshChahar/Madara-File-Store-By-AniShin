@@ -84,12 +84,13 @@ async def start_command(client: Client, message: Message):
                 snt_msgs.append(snt_msg)
             except:
                 pass
-        await message.reply_text("<b><u>❗Important❗</u></b><b><i>\nYo! Bro This File Will Be Deleted In 5 Min\nPlease Save It in Your Saved Messages Then Downloard It 🥺✨</i></b>")
-        await asyncio.sleep(SECONDS)
+        rasengan = await message.reply_text("<b><u>❗Important❗</u></b><b><i>\nYo! Bro This File Will Be Deleted In 5 Min\nPlease Save It in Your Saved Messages Then Downloard It 🥺✨</i></b>")
+                   await asyncio.sleep(SECONDS)
 
         for snt_msg in snt_msgs:
             try:
                 await snt_msg.delete()
+                await 
             except:
                 pass
         return
