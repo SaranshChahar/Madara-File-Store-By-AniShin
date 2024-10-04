@@ -10,7 +10,7 @@ from helper_func import subscribed, decode, get_messages
 from database.database import add_user, present_user, del_user, full_userbase
 
 # Add time in seconds for waiting before deleting
-SECONDS = int(os.getenv("SECONDS", "300"))
+SECONDS = int(os.getenv("SECONDS", "1800"))
 
 # Start command handler
 
@@ -85,7 +85,7 @@ async def start_command(client: Client, message: Message):
             except:
                 pass
                 
-        k = await message.reply_text("<b><u>❗Important❗</u></b><b><i>\nYo! Bro This File Will Be Deleted In 5 Min\nPlease Save It in Your Saved Messages Then Downloard It 🥺✨</i></b>")
+        k = await message.reply_text("🚨 NOTE :\n\nᴛʜɪꜱ ᴍᴇᴅɪᴀ ᴍᴇꜱꜱᴀɢᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 30 ᴍɪɴᴜᴛᴇꜱ. ᴘʟᴇᴀꜱᴇ ꜱᴀᴠᴇ ᴏʀ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ᴍᴇᴅɪᴀ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ʏᴏᴜʀ ᴘᴇʀꜱᴏɴᴀʟ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ʟᴏꜱɪɴɢ ᴛʜᴇᴍ!")
         await asyncio.sleep(SECONDS)
 
         for snt_msg in snt_msgs:
