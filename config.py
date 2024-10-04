@@ -41,7 +41,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "5"))
 
 # start message
 START_MSG = os.environ.get(
-    "START_MESSAGE", "<b><i>Yo {mention}\n\nI work 24/7 to provide to you animes 👀</i></b>")
+    "START_MESSAGE", "Hᴇʟʟᴏ ᴛʜᴇʀᴇ {first}!\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ʙᴏᴛ\nᴘᴏᴡᴇʀᴇᴅ ʙʏ : @HKB_ANIME\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ\nᴛʜʀᴏᴜɢʜ ᴛʜᴇ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ ♡")
 
 try:
     ADMINS = [5745818770]
