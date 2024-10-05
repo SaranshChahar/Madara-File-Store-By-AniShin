@@ -52,7 +52,7 @@ except ValueError:
 
 
 FORCE_MSG = os.environ.get(
-    "FORCE_SUB_MESSAGE", "<b><center>Hey {first}</center></b>⚡️Confirm Yourself As Human By Joining The Channel Below 🤖")
+    "FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ {first} !⚡\n\n🫧 Pʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴀʟʟ ᴏꜰ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ...!")
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
@@ -63,7 +63,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get(
     "DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "I Aᴍ Aɴ Iɴᴛʀᴏᴠᴇʀᴛ, Sᴛᴏᴘ Mᴇssᴀɢɪɴɢ ✋😐"
+USER_REPLY_TEXT = "🚫 Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ\n   ɪ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ - @HKB_ANIME"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5745818770)
