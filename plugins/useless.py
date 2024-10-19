@@ -1,7 +1,7 @@
 from bot import Bot
 from pyrogram.types import Message
 from pyrogram import filters
-from config import ADMINS, BOT_STATS_TEX
+from config import ADMINS, BOT_STATS_TEXT
 from datetime import datetime
 from helper_func import get_readable_time
 
